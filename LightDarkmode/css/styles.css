@@ -1,0 +1,321 @@
+html {
+  background-color: #ececec;
+}
+
+.phone-bar {
+  background-color: #fff;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  width: 372px;
+  display: flex;
+  flex-direction: row;
+}
+
+.time {
+  margin-left: -10px;
+  color: #214966;
+  font-family: "Inter";
+}
+
+.battery {
+  left: 90%;
+  right: 3.76%;
+  top: 39.39%;
+  bottom: 34.85%;
+}
+
+.battery-fill {
+  width: 18px;
+  height: 7.33px;
+  right: 19px;
+  top: 19.33px;
+  background: #214966;
+  border-radius: 1.33333px;
+  margin-top: 22px;
+  margin-left: 300px;
+}
+
+.battery-tip {
+  width: 1.33px;
+  height: 4px;
+  right: 14.67px;
+  top: 21px;
+  background: #214966;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  margin-top: -6px;
+  margin-left: 321px;
+}
+
+.battery-outline {
+  width: 22px;
+  height: 11.33px;
+  right: 17px;
+  top: 17.33px;
+  border: 1px solid #214966;
+  box-sizing: border-box;
+  border-radius: 2.66667px;
+  opacity: 0.35;
+  margin-top: -7px;
+  margin-left: 298px;
+}
+
+.mobile {
+  left: 79.15%;
+  right: 16.5%;
+  top: 40.15%;
+  bottom: 35.61%;
+}
+
+.mobile-1 {
+  width: 3px;
+  height: 10.67px;
+  right: 64.33px;
+  top: 17.67px;
+  background: #214966;
+  margin-left: -35px;
+  margin-top: 20px;
+}
+.mobile-2 {
+  width: 3px;
+  height: 8px;
+  right: 64.33px;
+  top: 17.67px;
+  background: #214966;
+  margin-left: -40px;
+  margin-top: -8px;
+}
+.mobile-3 {
+  width: 3px;
+  height: 6px;
+  right: 64.33px;
+  top: 17.67px;
+  background: #214966;
+  margin-left: -45px;
+  margin-top: -6px;
+}
+.mobile-4 {
+  width: 3px;
+  height: 4px;
+  right: 64.33px;
+  top: 17.67px;
+  background: #214966;
+  margin-left: -50px;
+  margin-top: -4px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 16px 16px;
+  position: static;
+  width: 390px;
+  height: 250px;
+  left: 0px;
+  top: 44px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../images/headline.png");
+}
+
+.food-you-love {
+  position: static;
+  width: 358px;
+  height: 74px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 32px 0px;
+  color: #214966;
+}
+
+.food-love {
+  margin-left: 10px;
+}
+
+.fyl1 {
+  margin-bottom: -60px;
+}
+
+.order-now-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 3px;
+  position: static;
+  width: 113px;
+  height: 35px;
+  left: 0px;
+  top: 106px;
+  background-color: #214966;
+  color: #fff;
+  border-radius: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 19px;
+  margin-top: -20px;
+  font-weight: 500;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  border-radius: 5%;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: 370px;
+  font-size: 20px;
+  font-family: "inter";
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+.card-title {
+  margin-bottom: -10px;
+  margin-top: 0px;
+}
+
+.card-text {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.bottom-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 390px;
+  height: 64px;
+  left: 0px;
+  top: 783px;
+  background: #ffffff;
+  box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.25);
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0px 0px;
+  width: 420px;
+  margin-left: 2px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+}
+.help {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+}
+
+.dark {
+  color: #fff;
+  background: #000;
+}
+
+.dark .phone-bar {
+  color: #fff;
+  background-color: rgb(56, 56, 56);
+}
+
+.dark .time {
+  color: #fff;
+}
+
+.dark .battery-fill {
+  background: #fff;
+}
+.dark .battery-outline {
+  background: #fff;
+}
+.dark .battery-tip {
+  background: #fff;
+}
+
+.dark .mobile-1 {
+  background: #fff;
+}
+.dark .mobile-2 {
+  background: #fff;
+}
+.dark .mobile-3 {
+  background: #fff;
+}
+.dark .mobile-4 {
+  background: #fff;
+}
+
+.dark .card {
+  background-color: rgb(56, 56, 56);
+}
+
+.dark .headline {
+  background: linear-gradient(
+      0deg,
+      rgba(36, 36, 36, 0.7),
+      rgba(34, 34, 34, 0.7)
+    ),
+    url("../images/headline.png");
+}
+
+.dark .food-you-love {
+  color: #fff;
+}
+
+.dark .order-now-button {
+  color: #000;
+  background: #fff;
+}
+
+.dark .bottom-menu {
+  background: rgb(56, 56, 56);
+}
